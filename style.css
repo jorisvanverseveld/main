@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: large;
+    line-height: 1.5;
+    overflow-x: hidden; 
+}
+
+.homemenu {
+    display: flex;
+    margin: 0.5em;
+}
+
+.homemenu li {
+    background-color: #f2f2f2;
+    margin: 0.3em;
+    padding: 0.3em;
+    border-bottom: 0.1em solid #d92a1a;
+    border-right: 0.3em solid #d92a1a;
+}
+
+.homemenu p {
+    line-height: 15pt;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+
+.homemenu a {
+    font-size: medium;
+    background-color: #0D0D0D;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 0.12em;
+    border-radius: 0.3em;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0.3em; 
+}
+
+nav li {
+    padding-left: 0.3em;
+}
+
+nav a {
+    color: #F23322;
+    text-decoration: none;
+    transition: all 350ms ease;
+}
+
+nav a:active {
+    color: black;
+}
+
+.galerij img {
+    max-width: 8em;
+    border-right: #d92a1a solid 0.3em;
+    border-bottom: #d92a1a solid 0.1em;
+    margin: 1em;
+    transition: all ease-in-out 350ms;
+}
+
+.galerij img:hover {
+    transform: scale(1.25);
+}
+
+.galerij {
+    margin-top: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.home {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('img/achtergrondhome.png');
+}
+
+.binnen {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('img/achtergrondbinnen.png');
+}
+
+.buiten {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('img/achtergrondbuiten.png');
+}
+
+.waar {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('img/achtergrondhome.png');
+}
+
+ul {
+    list-style: none;
+    font-family: "strenuous", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    color: #F23322;
+}
+
+.start img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    align-items: center;
+}
+
+header img {
+    margin-right: auto;
+    width: 5em;
+    max-height: fit-content;
+    margin: 0.3em;
+    margin-right: auto;
+}
+
+article p {
+    border-right: solid 0.4em #d92a1a;
+    border-bottom: solid 0.2em #d92a1a;
+    background-color: #f2f2f2;
+    margin: 0.6em;
+    padding: 0.2em;
+}
+
+article h2 {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 0.5em;
+    color: #F23322;
+    border-right: solid 0.3em #d92a1a;
+    border-bottom: solid 0.1em #d92a1a;
+    background-color: #f2f2f2;
+    font-family: "strenuous", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 15em;
+}
+
+p {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: "bicyclette", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F23322;
+    background-color: #f2f2f2;
+    margin-top: 12em;
+}
+
+.tekeninghome {
+    position: absolute;
+    width: 12em;
+    margin-top: 4em;
+}
+
+.tekeningvrouw {
+    position: absolute;
+    margin-left: 14em;
+    width: 6em;
+    margin-top: 10em;
+}
+
+.tekeningmannen {
+    width: 16em;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.rennendejongen {
+    width: 15em;
+    position: absolute;
+    margin-top: 7.8em;
+    left: -3em;
+}
+
+.Amsterdam {
+    width: 19em;
+    background-color: #f2f2f2;
+    margin: 1em;
+    margin-top: 3em;
+    border-right: solid 0.3em #d92a1a;
+    border-bottom: solid 0.1em #d92a1a;
+}
